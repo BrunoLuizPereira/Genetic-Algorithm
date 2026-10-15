@@ -25,17 +25,14 @@ Keep all three files in the same folder, or add their folder to the MATLAB or Oc
 
 The provided `Main.m` script maximizes the objective function defined in `ObjectiveFunction.m`:
 
-\[
-f(x_1,x_2)=-x_1^2-x_2^2+10
-\]
+`f(x) = -x(1)^2 - x(2)^2 + 10`
 
 The search bounds are:
 
-\[
--5\leq x_1\leq 2,\qquad -5\leq x_2\leq 3
-\]
+- `-5 <= x(1) <= 2`
+- `-5 <= x(2) <= 3`
 
-The theoretical maximum is \(f(0,0)=10\).
+The theoretical maximum is `10`, attained at `x = [0, 0]`.
 
 To run the example, set the project folder as the current folder and execute:
 
